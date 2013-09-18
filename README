@@ -21,4 +21,4 @@ In this project i have implement 8 ftp commands and those are--
     put: To copy files from local machine to remote machine.
      cd: For changing the directory of the server side.
     lcd: lcd is same as cd, but for client side.
-    bye: To close the connection with the server.
+    bye: To  disconnection from the server.
