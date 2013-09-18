@@ -1,0 +1,24 @@
+The FTP stands for File Transfer Protocol, which is utility program, commonly used for copying files to and from other computer.
+In my project i have implemented two program, first one is SERVER.C and another one is  CLIENT.C . 
+To run SERVER.C, Just compile the program and then run ( as we did for normal c programs ) and the procedure is same for CLIENT.C 
+
+For exemple--
+    balai@balai:~$ ./client  "Server IP address"
+                   --------  -------------------
+                     1st            2nd
+    
+In this project i have implement 8 ftp commands and those are--
+            
+                           1. ls        5. mget     
+                           2. lls       6. mput
+                           3. get       7. cd, lcd
+                           4. put       8. bye
+
+     ls: To list out names of the files in the current directory of the server side.
+    lls: It is same as the ls, but it list out the files of the client side.
+    get: To copy files from the Remote machine to the local machine.
+   mget: mget is same as get, only difference is mget is used to get multiple files.
+    put: To copy files from local machine to remote machine.
+     cd: For changing the directory of the server side.
+    lcd: lcd is same as cd, but for client side.
+    bye: To close the connection with the server.
